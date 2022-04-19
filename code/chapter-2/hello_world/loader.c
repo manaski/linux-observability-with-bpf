@@ -1,5 +1,6 @@
 #include "bpf_load.h"
 #include <stdio.h>
+#include "trace_helpers.h"
 
 int main(int argc, char **argv) {
   if (load_bpf_file("bpf_program.o") != 0) {
