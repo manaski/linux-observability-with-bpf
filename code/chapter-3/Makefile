@@ -1,6 +1,7 @@
 CLANG = clang
 
-INCLUDE_PATH += -I/kernel-src/tools/lib/bpf
+KERNEL_SRC = /usr/src/linux-5.13.0
+INCLUDE_PATH = -I$(KERNEL_SRC)/tools/lib/bpf
 
 LIBRARY_PATH = -L/usr/local/lib64
 BPFSO = -lbpf
