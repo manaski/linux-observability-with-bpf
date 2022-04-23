@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from bcc import BPF
 
 bpf_source = """
@@ -13,5 +15,6 @@ int do_sys_execve(struct pt_regs *ctx) {
 
 bpf = BPF(text=bpf_source)
 execve_function = bpf.get_syscall_fnname("execve")
+print(execve_function)
 bpf.attach_kprobe(event=execve_function, fn_name="do_sys_execve")
 bpf.trace_print()

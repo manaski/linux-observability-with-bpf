@@ -1,12 +1,18 @@
 package main
 
-import "time"
+import (
+    "fmt"
+    "net/http"
+    "time"
+)
+
+func indexHandler(w http.ResponseWriter, r *http.Request) {
+    fmt.Printf("ok")
+    time.Sleep(200*time.Millisecond)
+    fmt.Fprintf(w, "hello world")
+}
 
 func main() {
-	j := 3
-	for time.Since(time.Now()) < time.Second {
-		for i := 1; i < 1000000; i++ {
-			j *= i
-		}
-	}
+    http.HandleFunc("/", indexHandler)
+    http.ListenAndServe(":8000", nil)
 }

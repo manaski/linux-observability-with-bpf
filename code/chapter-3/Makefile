@@ -17,6 +17,12 @@ fetch: 	map_pinning_fetch.c
 save: 	bpf_fs/map_pinning_save.c
 	clang -o bpf_fs/save -lelf $(INCLUDE_PATH) $(LIBRARY_PATH) $(BPFSO) $?
 
-build: fetch save
+delete:  map_pinning_delete.c
+	clang -o delete -lelf $(INCLUDE_PATH) $(LIBRARY_PATH) $(BPFSO) $?
+
+iterate:  map_pinning_iterate.c
+	clang -o iterate -lelf $(INCLUDE_PATH) $(LIBRARY_PATH) $(BPFSO) $?
+
+build: fetch save delete iterate
 
 .DEFAULT_GOAL := build

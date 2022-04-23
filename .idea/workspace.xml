@@ -7,8 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cba2bf8-9cd2-4f77-a1a3-25e2310b6f32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/chapter-3/map_pinning_delete.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/chapter-3/map_pinning_iterate.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/chapter-4/tracepoints/urandom_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/chapter-5/example.bt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/chapter-3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-3/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-3/bpf_fs/map_pinning_save.c" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-3/bpf_fs/map_pinning_save.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-3/map_pinning_fetch.c" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-3/map_pinning_fetch.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/flamegraphs/bcc_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/flamegraphs/bcc_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/flamegraphs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/flamegraphs/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/histograms/bcc_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/histograms/bcc_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/kprobes/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/kprobes/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/kretprobes/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/kretprobes/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/perf_events/bcc_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/perf_events/bcc_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/tracepoints/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/tracepoints/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/uprobes/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/uprobes/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/uretprobes/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/uretprobes/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/usdt/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/usdt/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets/build-loader.sh" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets/build-loader.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets/loader.c" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets/loader.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +36,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,7 +59,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,7 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1650386704931</updated>
       <workItem from="1650386706739" duration="166000" />
-      <workItem from="1650388372681" duration="886000" />
+      <workItem from="1650388372681" duration="8740000" />
+      <workItem from="1650559406665" duration="14635000" />
     </task>
     <servers />
   </component>

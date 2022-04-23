@@ -4,7 +4,7 @@
 #include <string.h>
 #include "bpf.h"
 
-static const char *file_path = "/sys/fs/bpf/my_array";
+static const char *file_path = "/sys/fs/bpf/my_map";
 
 int main(int argc, char **argv) {
   int fd, key, value, result;

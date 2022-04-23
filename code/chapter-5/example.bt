@@ -1,0 +1,16 @@
+BEGIN
+{
+    printf("starting BPFTrace program\n")
+}
+
+tracepoint:syscalls:sys_enter_execve,tracepoint:syscalls:sys_enter_execveat
+{
+    printf("%-6d %-8s", pid, comm);
+    join(args->argv);
+    @call[comm] = count()
+}
+
+END
+{
+    printf("exsiting BPFTracing program\n")
+}
