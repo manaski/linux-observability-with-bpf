@@ -39,15 +39,15 @@ struct http_payload {
   int method;
 };
 
-static inline int is_http(struct __sk_buff *skb, __u64 nh_off);
+static int is_http(struct __sk_buff *skb, __u64 nh_off);
 
 typedef __uint8_t uint8_t;
 typedef __uint16_t uint16_t;
 typedef __uint32_t uint32_t;
 typedef __uint64_t uint64_t;
 
-SEC("classifier")
-static inline int classification(struct __sk_buff *skb) {
+SEC("tc")
+int tc_process(struct __sk_buff *skb) {
   void *data_end = (void *)(long)skb->data_end;
   void *data = (void *)(long)skb->data;
   struct ethhdr *eth = data;
@@ -71,7 +71,7 @@ static inline int classification(struct __sk_buff *skb) {
   return TC_ACT_OK;
 }
 
-static inline int is_http(struct __sk_buff *skb, __u64 nh_off) {
+static int is_http(struct __sk_buff *skb, __u64 nh_off) {
   void *data_end = (void *)(long)skb->data_end;
   void *data = (void *)(long)skb->data;
   struct iphdr *iph = data + nh_off;

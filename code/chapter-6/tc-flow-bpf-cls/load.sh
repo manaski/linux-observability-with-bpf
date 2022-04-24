@@ -1,4 +1,5 @@
 #!/bin/bash
 IFNAME=$1
-tc qdisc add dev $IFNAME handle 0: ingress
-tc filter add dev $IFNAME ingress  bpf obj classifier.o flowid 0:
+
+tc qdisc add dev $IFNAME clsact
+tc filter add dev $IFNAME ingress bpf da obj classifier.o sec tc

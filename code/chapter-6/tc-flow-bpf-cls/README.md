@@ -49,6 +49,11 @@ It will show:
           <idle>-0     [000] ..s. 30096.619165: 0: Yes! It is HTTP!
 ```
 
+also
+
+```bash
+sudo tc exec bpf dbg
+```
 
 At this point, you will want to unload the program, to do so:
 
