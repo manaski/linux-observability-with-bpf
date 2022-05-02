@@ -7,8 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cba2bf8-9cd2-4f77-a1a3-25e2310b6f32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/chapter-4/flamegraphs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/chapter-4/histograms/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/chapter-4/kprobes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/chapter-4/uprobes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/chapter-4/usdt/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/chapter-7/bcc/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-7/bcc/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-2/hello_world/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-2/hello_world/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-2/hello_world/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-2/hello_world/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-3/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-3/bpf_fs/map_pinning_save.c" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-3/map_pinning_save.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/perf_events/output.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/perf_events/visual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-4/usdt/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-4/usdt/example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets/build-loader.sh" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets/build-loader.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chapter-6/tc-flow-bpf-cls/load.sh" beforeDir="false" afterPath="$PROJECT_DIR$/code/chapter-6/tc-flow-bpf-cls/load.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +54,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/chapter-4/usdt" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/chapter-4/usdt" />
       <recent name="$PROJECT_DIR$/code/chapter-6/packet-filtering-raw-sockets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/chapter-3" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -65,7 +83,8 @@
       <updated>1650386704931</updated>
       <workItem from="1650386706739" duration="166000" />
       <workItem from="1650388372681" duration="8740000" />
-      <workItem from="1650559406665" duration="24782000" />
+      <workItem from="1650559406665" duration="25642000" />
+      <workItem from="1651474183208" duration="13077000" />
     </task>
     <servers />
   </component>

@@ -55,3 +55,8 @@ We are updating the book so that future prints and PDFs are updated but your cop
 - This examples uses a `Makefile` instead of  `compile-bpf.sh` and `compile-loader.sh`;
 - Some code in `bpf_program.c` is different;
 - Compiled file names differs, both for the loader and the bpf shared object;
+
+## Problems
+找不到bpf_loader.h？
+这个文件期望是在samples/bpf/bpf_loader.h，在5.10版本之后的内核源码中不再包含这个头文件，可以从5.10版本或之前版本的源码中复制到当前文件夹。
+编译libbpf

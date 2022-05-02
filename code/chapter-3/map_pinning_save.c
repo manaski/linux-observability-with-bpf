@@ -15,12 +15,6 @@ int main(int argc, char **argv) {
         return -1;
     }
 
-    fd = bpf_obj_get(file_path);
-    if (fd < 0) {
-        printf("Failed to fetch the map: %d (%s)\n", fd, strerror(errno));
-        return -1;
-    }
-
     key = 1, value = 1234;
     added = bpf_map_update_elem(fd, &key, &value, BPF_ANY);
     if (added < 0) {

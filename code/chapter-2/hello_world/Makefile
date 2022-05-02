@@ -6,7 +6,6 @@ BPFCODE = bpf_program
 
 KERNEL_SRC = /usr/src/linux-5.13.0
 
-BPFTOOLS = $(KERNEL_SRC)/samples/bpf
 BPFLOADER = ./bpf_load.c
 
 CCINCLUDE += -I$(KERNEL_SRC)/tools/testing/selftests/bpf
@@ -18,9 +17,8 @@ LOADINCLUDE += -I$(KERNEL_SRC)/tools/lib/bpf
 LOADINCLUDE += -I$(KERNEL_SRC)/tools/perf
 LOADINCLUDE += -I$(KERNEL_SRC)/tools/include
 LOADINCLUDE += -I$(KERNEL_SRC)/tools/testing/selftests/bpf
-# LIBRARY_PATH = -L/usr/local/lib64
-LIBRARY_PATH += -L$(KERNEL_SRC)/tools/lib/bpf
-BPFSO = -lbpf
+LIBRARY_PATH += -L$(KERNEL_SRC)/tools/lib/bpf	# bpf库安装目录
+BPFSO = -lbpf	# 链接动态库
 
 .PHONY: clean bpfload build
 
